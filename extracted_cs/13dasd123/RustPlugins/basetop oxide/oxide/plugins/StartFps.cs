@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿   namespace Oxide.Plugins
 {
     [Info("StartFps", "Molik", "1.0.0")]

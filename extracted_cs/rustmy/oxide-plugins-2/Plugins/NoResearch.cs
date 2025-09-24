@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
 TODO:
 - Show blocked message via centered GUI overlay

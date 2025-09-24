@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins
 {
     [Info("Whoa Boy", "Clearshot", "1.1.0")]

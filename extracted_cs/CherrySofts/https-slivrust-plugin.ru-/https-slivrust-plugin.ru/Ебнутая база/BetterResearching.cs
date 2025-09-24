@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("Better Researching", "Waizujin", 1.3)]

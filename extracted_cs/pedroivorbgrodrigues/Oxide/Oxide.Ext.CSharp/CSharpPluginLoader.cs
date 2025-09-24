@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System.IO;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;

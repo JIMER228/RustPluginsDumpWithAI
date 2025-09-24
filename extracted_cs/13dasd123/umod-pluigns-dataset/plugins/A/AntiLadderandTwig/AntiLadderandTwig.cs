@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//#define Debug
 using System.Collections.Generic;
 using Newtonsoft.Json;

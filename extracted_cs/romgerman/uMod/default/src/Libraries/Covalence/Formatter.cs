@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // A custom markup language for Oxide
 //
 // Text 		::= {Element}

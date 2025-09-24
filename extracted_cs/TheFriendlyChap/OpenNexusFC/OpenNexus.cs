@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: 0Harmony
 //None of this code is to be used in any paid projects/plugins
 using Facepunch.Utility;

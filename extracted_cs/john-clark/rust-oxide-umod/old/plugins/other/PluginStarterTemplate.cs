@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/**
  * Note: This is a starter template for educational and jump-start
  * purposes. For best performance, it is suggested to remove all  

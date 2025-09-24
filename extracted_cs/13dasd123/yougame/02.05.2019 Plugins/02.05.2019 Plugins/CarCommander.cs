@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //Reference: UnityEngine.VehiclesModule
 using System;
 using System.Collections.Generic;

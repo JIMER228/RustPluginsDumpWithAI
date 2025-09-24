@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // #define DEBUG_DROP_ON_DEATH
 // #define DEBUG_POOLING
 // #define DEBUG_BACKPACK_LIFECYCLE

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*MiniEvents Contains 3 Simple Mini Events N1: Lottery Of Number N2: Lottery Of Players N3: Math Questions.
 Player commands in detail:
 /enter (Number) => Enter event lottery of number.

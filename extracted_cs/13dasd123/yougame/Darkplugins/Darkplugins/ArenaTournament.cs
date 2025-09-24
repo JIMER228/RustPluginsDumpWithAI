@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Facepunch;
 using Newtonsoft.Json;
 using Oxide.Core;
@@ -2363,4 +2364,4 @@ namespace Oxide.Plugins
         }
         #endregion
     }
-}
+}

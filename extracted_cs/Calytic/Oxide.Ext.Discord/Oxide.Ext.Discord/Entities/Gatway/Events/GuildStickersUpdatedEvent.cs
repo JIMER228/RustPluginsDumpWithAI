@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Newtonsoft.Json;
 using Oxide.Ext.Discord.Entities.Stickers;
 using Oxide.Ext.Discord.Helpers.Converters;

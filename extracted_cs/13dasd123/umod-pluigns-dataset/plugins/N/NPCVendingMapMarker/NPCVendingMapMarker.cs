@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
     NPCVendingMapMarker - A Rust umod plugin to add in-game vending map markers to NPC's.
     Copyright (C) 2020 by Pinguin

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using static Oxide.Plugins.CovalencePlugin;
 using Logger = Carbon.Logger;
 

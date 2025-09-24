@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Enumerable = System.Linq.Enumerable;
 using System;
 using System.Collections;

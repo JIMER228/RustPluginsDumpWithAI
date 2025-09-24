@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Microsoft.SqlServer.Server;
 using Newtonsoft.Json;
 using Oxide.Core;

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/* Atención:
 Si la persona que esta editando este documento
 no entiende el lenguaje C# ni la API de Oxide, le recomiendo que

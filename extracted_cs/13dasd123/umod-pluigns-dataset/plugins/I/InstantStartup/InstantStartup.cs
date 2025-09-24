@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins
 {
     [Info("Instant Startup", "Kaysharp/patched by chrome", "1.0.3")]

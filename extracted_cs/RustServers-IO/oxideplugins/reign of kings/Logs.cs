@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 
 // WARNING: Date format is dd/M/yyyy (Day/Month/Year)
 // If you have any dayfirstophobia or cannot read this format properly, you'll need to get used to it.

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿#region License (GPL v2)
 /*
     Aggressive Animals - Bears and wolves no longer run away

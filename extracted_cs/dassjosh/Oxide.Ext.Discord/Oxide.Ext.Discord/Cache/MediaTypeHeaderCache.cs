@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Net.Http.Headers;
 using Oxide.Ext.Discord.Constants;
 using Oxide.Ext.Discord.Types;

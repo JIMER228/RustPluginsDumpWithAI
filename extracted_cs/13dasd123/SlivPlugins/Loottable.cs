@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//#define HOOKTIME_DEBUG
 // Reference: 0Harmony
 using Facepunch;

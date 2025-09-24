@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Convert = System.Convert;
 using Network;
 using Oxide.Core.Plugins;

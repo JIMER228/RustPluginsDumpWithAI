@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Copyright 2023 Steamcord LLC
 
 // #define DEBUG

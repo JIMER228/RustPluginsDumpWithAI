@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Author:  Kaidoz
 // Filename: AuthMe.cs
 // Last update: 2019.10.09 20:32

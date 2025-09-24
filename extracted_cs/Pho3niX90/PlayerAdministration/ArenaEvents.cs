@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//Requires: ArenaStatistics
 using System;
 using System.Collections;

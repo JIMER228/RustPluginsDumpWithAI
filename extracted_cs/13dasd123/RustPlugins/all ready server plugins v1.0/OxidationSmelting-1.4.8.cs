@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /**
  * OxidationSmelting - Smelting controller
  * Copyright (C) 2021-2022 kasvoton [kasvoton@projectoxidation.com]

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿#region Header
 using CodeHatch.Common;
 using CodeHatch.Engine.Core.Cache;

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
  * The MIT License (MIT)
  * Copyright (c) 2015 feramor@computer.org

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Oxide.Ext.RustLegacy
 // Reference: Facepunch.ID
 // Reference: Facepunch.MeshBatch

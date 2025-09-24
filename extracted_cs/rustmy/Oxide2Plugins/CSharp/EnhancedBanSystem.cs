@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // TO DO:
 // Full testing of every types
 // Dont reban if less informations

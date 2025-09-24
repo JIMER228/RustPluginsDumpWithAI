@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Requires: ZoneManager
 using Oxide.Core.Plugins;
 using System.Collections.Generic;

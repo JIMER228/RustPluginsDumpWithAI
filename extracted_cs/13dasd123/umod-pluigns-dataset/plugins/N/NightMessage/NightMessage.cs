@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//confirmed working with Hurtworld ItemV2, ROK, Rust, 7DaystoDie
 using System;
 using System.Collections.Generic;

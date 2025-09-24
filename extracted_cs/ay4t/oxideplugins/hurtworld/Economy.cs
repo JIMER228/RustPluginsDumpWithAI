@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //Reference: UnityEngine.UI
 using Oxide.Game.Hurtworld.Libraries;
 using System.Collections.Generic;

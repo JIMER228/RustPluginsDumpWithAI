@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using ConVar;
 using Oxide.Game.Rust.Cui;
 using UnityEngine.Networking;

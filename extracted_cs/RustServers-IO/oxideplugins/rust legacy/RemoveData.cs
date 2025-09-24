@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*<summary> Plugin RemoveData:
 Permissions RemoveData:
 Admin rcon or permission removedata.admin

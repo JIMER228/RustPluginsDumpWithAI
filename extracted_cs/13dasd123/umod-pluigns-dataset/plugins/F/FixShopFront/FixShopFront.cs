@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins
 {
     [Info("Fix Shop Front", "Mevent", "1.0.2")]

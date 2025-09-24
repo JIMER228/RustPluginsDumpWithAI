@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     QRadar - ALlow players to spawn a geiger counter and use it

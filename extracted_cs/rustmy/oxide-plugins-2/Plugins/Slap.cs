@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 TODO:
 - Fix players being kicked by Rust's anti-hack

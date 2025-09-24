@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
     MonumentLogger Plugin
     Version: 1.0.7

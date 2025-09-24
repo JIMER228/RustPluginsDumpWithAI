@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System;
 using System.Linq;
 using System.Reflection;
@@ -831,4 +832,4 @@ namespace Oxide.Plugins
 
         #endregion
     }
-}
+}

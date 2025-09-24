@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /**
 Turns all Lights out at night then allows user to turn them back on again.
 This is usfull to save on CPU but was designed for servers that run fast gathering (1000x), it allows users to see

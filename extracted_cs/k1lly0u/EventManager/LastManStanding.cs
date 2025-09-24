@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Requires: EventManager
 using Newtonsoft.Json;
 using Oxide.Plugins.EventManagerEx;

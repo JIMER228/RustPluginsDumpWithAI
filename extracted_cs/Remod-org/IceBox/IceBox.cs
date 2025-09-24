@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     IceBox - Make small storage boxes keep food like a fridge

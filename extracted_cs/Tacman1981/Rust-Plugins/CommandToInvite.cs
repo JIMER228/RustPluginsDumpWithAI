@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //check out TeamHandler in this repo for a plugin with more team control using commands. prevents accidental leaving of team and invite, since there is no confirm for leave team, I made it a command instead.
 
 //████████╗ █████╗  ██████╗███╗   ███╗  █████╗ ███╗   ██╗

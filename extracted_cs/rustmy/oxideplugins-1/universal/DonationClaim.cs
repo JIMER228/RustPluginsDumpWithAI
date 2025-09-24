@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Oxide.Core.MySql
 
 using System;
@@ -55,7 +56,8 @@ namespace Oxide.Plugins
         void LoadDefaultMessages()
         {
             // English
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["Claimed"] = "You claimed the {0} donation package. Thank you for your donation!",
                 ["NoPackage"] = "Package {0} could not be found! Please notify an admin",
                 ["NoUnclaimed"] = "No unclaimed rewards available for email address: {0}"

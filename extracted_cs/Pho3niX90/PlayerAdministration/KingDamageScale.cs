@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins {
     [Info("King Damage Scaler", "Pho3niX90", "0.0.1")]
     [Description("Scale damage")]

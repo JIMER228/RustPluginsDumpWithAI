@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Linq;
 using Newtonsoft.Json;
 using UnityEngine;
@@ -14,7 +15,7 @@ namespace Oxide.Plugins
         {
             [JsonProperty(PropertyName = "Debug Mode")]
             public bool debug = false;
-            [JsonProperty(PropertyName = "Set Temprature to (�C)")]
+            [JsonProperty(PropertyName = "Set Temprature to (C)")]
             public float usertemp = 30.0f;
             [JsonProperty(PropertyName = "Use permission : ")]
             public bool usePerm = false;

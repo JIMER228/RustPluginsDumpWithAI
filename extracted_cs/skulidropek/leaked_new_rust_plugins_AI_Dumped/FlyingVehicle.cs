@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;
 using Oxide.Core.Libraries.Covalence;
 using UnityEngine;
@@ -158,7 +159,7 @@ namespace Oxide.Plugins
                     prefab = SubmarineDuo;
                     break;
                 }
-                case "kayak": // ����� ���
+                case "kayak": //  
                 {
                     prefab = PrefabKayak;
                     break;

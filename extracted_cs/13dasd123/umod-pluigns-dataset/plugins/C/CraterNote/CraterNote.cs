@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins 
 {
 	[Info("Crater Note", "rostov114", "1.0.0")]

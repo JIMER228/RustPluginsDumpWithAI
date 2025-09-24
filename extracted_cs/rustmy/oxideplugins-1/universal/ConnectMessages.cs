@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Core.Libraries.Covalence;
 using System.Collections.Generic;
 using Newtonsoft.Json;
@@ -65,10 +66,10 @@ namespace Oxide.Plugins
 
             lang.RegisterMessages(new Dictionary<string, string>
             {
-                ["ConnectMessage"] = "{0} s'est connect�(e).",
-                ["ConnectMessageCountry"] = "{0} s'est connect�(e) de {1}.",
-                ["DisconnectMessage"] = "{0} s'est disconnect�(e).",
-                ["DisconnectMessageReason"] = "{0} s'est disconnect�(e). ({1})"
+                ["ConnectMessage"] = "{0} s'est connect(e).",
+                ["ConnectMessageCountry"] = "{0} s'est connect(e) de {1}.",
+                ["DisconnectMessage"] = "{0} s'est disconnect(e).",
+                ["DisconnectMessageReason"] = "{0} s'est disconnect(e). ({1})"
             }, this, "fr");
 
             lang.RegisterMessages(new Dictionary<string, string>

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using HarmonyLib;
 using Oxide.Core.Plugins;
 using Rust.Ai.Gen2;

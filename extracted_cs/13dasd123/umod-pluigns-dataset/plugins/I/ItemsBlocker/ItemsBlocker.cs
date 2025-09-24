@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //#define CHECK
 using Oxide.Game.Rust.Cui;
 using System;

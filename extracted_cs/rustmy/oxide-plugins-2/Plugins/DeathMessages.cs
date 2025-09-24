@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System.Collections.Generic;
 
 namespace Oxide.Plugins
@@ -9,7 +10,9 @@ namespace Oxide.Plugins
     {
         void LoadDefaultMessages()
         {
-            var messages = new Dictionary<string, string>            {                {"EntityStats/Sources/Fall Damage", "{Name} fell to death"},
+            var messages = new Dictionary<string, string>
+            {
+                {"EntityStats/Sources/Fall Damage", "{Name} fell to death"},
                 {"EntityStats/Sources/Damage Over Time", "{Name} just died"},
                 {"EntityStats/Sources/Radiation Poisoning", "{Name} just died"},
                 {"EntityStats/Sources/Starvation", "{Name} just died"},
@@ -18,7 +21,9 @@ namespace Oxide.Plugins
                 {"EntityStats/Sources/Poison", "{Name} just died"},
                 {"EntityStats/Sources/Burning", "{Name} just died"},
                 {"EntityStats/Sources/Suicide", "{Name} committed suicide"},
-                {"Unknown", "{Name} just died on a mystic way"}            };            lang.RegisterMessages(messages, this);
+                {"Unknown", "{Name} just died on a mystic way"}
+            };
+            lang.RegisterMessages(messages, this);
         }
 
         void Loaded() => LoadDefaultMessages();

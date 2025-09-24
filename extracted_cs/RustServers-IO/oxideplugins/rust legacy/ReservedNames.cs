@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*<summary> Plugin ReservedNames:
 Permissions ReservedNames:
 Admin rcon or permission reservednames.admin

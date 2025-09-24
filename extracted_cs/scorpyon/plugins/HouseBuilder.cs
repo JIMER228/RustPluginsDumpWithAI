@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System;
 using CodeHatch.Blocks.Networking.Events;
 using CodeHatch.Blocks.Networking.Events.Local;

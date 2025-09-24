@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using UnityEngine;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -5,11 +6,11 @@ using Oxide.Core.Libraries.Covalence;
 
 namespace Oxide.Plugins
 {
-    [Info("Windy Airdrop", "� � �", "1.0.0")]
+    [Info("Windy Airdrop", "  ", "1.0.0")]
 
     public class WindyAirdrop : CovalencePlugin
     {
-        #region ����
+        #region 
         private bool initComplete = false;
 
         private void OnServerInitialized()
@@ -24,7 +25,7 @@ namespace Oxide.Plugins
         }
         #endregion
 
-        #region ���
+        #region 
 
         private class SupplyDropModifier : MonoBehaviour
         {

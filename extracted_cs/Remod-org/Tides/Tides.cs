@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     Tides - Standard tidal event for the Rust day

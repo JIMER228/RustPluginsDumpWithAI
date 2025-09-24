@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System;                      //DateTime
 using System.Reflection;           //Required for BindFlag
 using System.Data;

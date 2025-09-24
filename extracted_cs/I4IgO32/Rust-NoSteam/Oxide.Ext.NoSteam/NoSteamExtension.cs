@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Author:  Kaidoz
 // Filename: NoSteamExtension.cs
 // Last update: 2019.10.06 20:41

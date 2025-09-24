@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
     RfTool - A Rust umod plugin to manipulate/intercept in-game RF objects/signals
     Copyright (C) 2019 by Pinguin

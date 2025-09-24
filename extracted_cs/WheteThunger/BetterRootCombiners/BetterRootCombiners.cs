@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins
 {
     [Info("Better Root Combiners", "WhiteThunder", "1.0.1")]

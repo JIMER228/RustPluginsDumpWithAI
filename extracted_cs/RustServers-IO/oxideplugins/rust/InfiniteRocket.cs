@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Oxide.Core.Plugins;
 using System;
 using Oxide.Core.Libraries.Covalence;
@@ -121,7 +122,8 @@ namespace Oxide.Plugins
 
         void LoadDefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["NotAllowed"] = "You are not allowed to use the '{0}' command",
                 ["HasntLaunched"] = "Hasn't a launched rocket",
                 ["Usage"] = "/{0} to explode rocket right now\n/{0} N to explode rocket after number of seconds"

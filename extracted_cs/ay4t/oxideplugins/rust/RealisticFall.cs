@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("RealisticFall", "Wulf/lukespragg", "2.0.1", ResourceId = 855)]

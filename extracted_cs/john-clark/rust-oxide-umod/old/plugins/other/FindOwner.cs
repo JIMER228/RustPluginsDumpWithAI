@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*ToDo:
  * Currently doesnt find the owner of blocks outside of crest zones, not even sure if that is possible, because technically there isnt one, but I will keep looking.
  *Credits: I gave up on this a while back, and then saw a post by Wulf asking how to check where a player is looking with Raycast for ROK for his Port gun plugin, 

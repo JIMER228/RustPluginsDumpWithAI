@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿#pragma warning disable
 using Facepunch;
 using Facepunch.Math;

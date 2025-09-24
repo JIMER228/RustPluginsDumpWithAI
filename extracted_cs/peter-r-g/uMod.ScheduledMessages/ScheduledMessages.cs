@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//#define ScheduledMessages_DEBUG
 // Uncomment above to enable debug statements. Will only be useful for developers or when debugging a problem.
 

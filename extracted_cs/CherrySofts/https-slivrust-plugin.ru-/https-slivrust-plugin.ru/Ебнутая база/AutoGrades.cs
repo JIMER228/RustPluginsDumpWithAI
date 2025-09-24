@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 	Created By AlexALX (c) 2015-2017
 	Special thanks to: recon, freaky

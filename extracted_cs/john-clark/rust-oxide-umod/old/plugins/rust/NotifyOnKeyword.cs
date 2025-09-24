@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Core.Libraries;
 using System;   //String.
 using System.Collections.Generic;

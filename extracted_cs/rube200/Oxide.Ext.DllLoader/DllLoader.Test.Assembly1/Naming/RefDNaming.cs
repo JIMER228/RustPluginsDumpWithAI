@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using DllLoader.Test.Libs;
 using Oxide.Core.Plugins;
 using Oxide.Plugins;

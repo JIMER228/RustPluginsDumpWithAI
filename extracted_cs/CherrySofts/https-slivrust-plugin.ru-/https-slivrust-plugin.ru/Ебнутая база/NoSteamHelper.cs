@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Author:  Kaidoz
 // Filename: NoSteamHelper.cs
 // Last update: 2019.10.07 19:20

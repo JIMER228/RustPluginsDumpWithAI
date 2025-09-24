@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins
 {
     [Info("NoWounded", "k1lly0u", "0.1.0", ResourceId = 0)]

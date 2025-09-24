@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 TODO:
 - Add support for country, country code, and Steam ID in messages
@@ -42,7 +43,8 @@ namespace Oxide.Plugins
 
         void LoadDefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 {"PlayerRejected", "This server doesn't allow players from {country}"}
             }, this);
         }

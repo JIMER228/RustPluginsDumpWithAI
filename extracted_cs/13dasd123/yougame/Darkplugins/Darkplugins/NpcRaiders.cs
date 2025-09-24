@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;
 using System.Collections;
 using Oxide.Core.Configuration;
@@ -4346,4 +4347,4 @@ namespace Oxide.Plugins
 
     }
 }
-
+

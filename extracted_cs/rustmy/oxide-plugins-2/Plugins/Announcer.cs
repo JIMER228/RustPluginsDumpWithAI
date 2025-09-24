@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;using Oxide.Core.Libraries.Covalence;namespace Oxide.Plugins
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
+﻿using System.Collections.Generic;
+using Oxide.Core.Libraries.Covalence;
+
+namespace Oxide.Plugins
 {
     [Info("Announcer", "Wulf/lukespragg", "0.2.0", ResourceId = 0)]
     [Description("Broadcasts customizable messages when players join/quit")]
@@ -13,14 +17,21 @@
         void Init()
         {
             lang.RegisterMessages(new Dictionary<string, string>
-            {                ["PlayerJoined"] = "{0} joined the survivors",                ["PlayerQuit"] = "{0} abandoned the survivors"            }, this);
+            {
+                ["PlayerJoined"] = "{0} joined the survivors",
+                ["PlayerQuit"] = "{0} abandoned the survivors"
+            }, this);
         }
 
         #endregion
 
-        #region Broadcast Messages        void OnUserConnected(IPlayer player) => server.Broadcast(Lang("PlayerJoined", player.Id, player.Name));
+        #region Broadcast Messages
 
-        void OnUserDisconnected(IPlayer player) => server.Broadcast(Lang("PlayerQuit", player.Id, player.Name));        #if HURTWORLD
+        void OnUserConnected(IPlayer player) => server.Broadcast(Lang("PlayerJoined", player.Id, player.Name));
+
+        void OnUserDisconnected(IPlayer player) => server.Broadcast(Lang("PlayerQuit", player.Id, player.Name));
+
+        #if HURTWORLD
         bool OnConnectionNotice() => true;
         bool OnDisconnectionNotice() => true;
         #endif

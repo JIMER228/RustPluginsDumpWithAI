@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//In this example we will put together what we know to create a plugin
 //The functionality of the plugin will be a whitelist with a twist
 //We will use a button to add a player to a list in storedata

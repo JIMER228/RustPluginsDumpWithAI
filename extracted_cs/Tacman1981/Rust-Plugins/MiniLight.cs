@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //Some changes to facepunch code has broken this 1. when it does work it has a delay when switching states.
 //Still trying to figure out why it desnt continue to work after restarts. we likely must kill the minicopter on initialize to ensure continuous functionality.
 //This is specifically designed for pve servers with personal minicopters.

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // TODO: Check ownerID's account for all options
 // TODO: Properly handle private game/playtime info
 

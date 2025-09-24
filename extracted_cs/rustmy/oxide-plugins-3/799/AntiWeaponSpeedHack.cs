@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Reference: Newtonsoft.Json
 // Reference: Oxide.Ext.Rust
 using System.Collections.Generic;

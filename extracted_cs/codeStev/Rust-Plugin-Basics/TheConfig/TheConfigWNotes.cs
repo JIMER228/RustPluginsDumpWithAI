@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//On this example we will create a config and reference it
 //in This example we need to reference a dependancy called Newtonsoft Json
 //We do this by doing the following:

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// TODO: Combine messages when multiple supported plugins for one type are in use
 // TODO: Improve item stealing chances, very slim chance to get an item right now
 

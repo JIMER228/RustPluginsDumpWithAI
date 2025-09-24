@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System;
 using System.Linq;
 using System.Collections;
@@ -126,7 +127,8 @@ namespace Oxide.Plugins
 
         void DefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["NoAnswer"] = "No answer from {0}. Try later.",
                 ["AlreadyVoted"] = "You have already voted on {0}.",
                 ["NextVote"] = "Next Vote: {0}",

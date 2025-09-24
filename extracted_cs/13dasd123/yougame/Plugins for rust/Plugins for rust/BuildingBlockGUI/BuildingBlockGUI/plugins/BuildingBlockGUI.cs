@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
         #region Header
 
 using System;
@@ -22,7 +23,7 @@ using Rust;
 namespace Oxide.Plugins
 {
     /*
-	������� https://vk.com/id320737533
+	 https://vk.com/id320737533
     */
     [Info("BuildingBlockGUI", "S1m0n", "1.0.0")]
     [Description("BuildingBlockGUI ;)")]

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System.Text;
 using Facepunch;
 using Formatter = Oxide.Core.Libraries.Covalence.Formatter;

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/* TODO: * 
  * Cannot get Loot Sacks to work right, they do not have an owner assigned, I have to find a way to catch 
  the Loot bag on death, grab the netviewId so I can associate it with the player in a list, and I have not 

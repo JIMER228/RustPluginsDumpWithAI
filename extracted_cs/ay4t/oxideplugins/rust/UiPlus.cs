@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //
 //  By
 //      Ron Dekker (www.RonDekker.nl, @RedKenrok)

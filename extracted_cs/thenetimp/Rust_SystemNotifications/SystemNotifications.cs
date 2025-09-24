@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
  * Setup Instructions:
  *      https://oxidemod.org/threads/setting-up-a-c-workspace-in-visual-studio-2015.10010/

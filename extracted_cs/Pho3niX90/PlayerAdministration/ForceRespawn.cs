@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins {
     [Info("Force Respawn", "Pho3niX90", "0.1.2")]
     [Description("Forces a player respawn when they cannot from death screen")]

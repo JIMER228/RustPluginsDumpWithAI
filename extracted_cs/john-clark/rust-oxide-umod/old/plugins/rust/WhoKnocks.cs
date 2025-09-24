@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;   //dict
 using System.Linq;  //list
 using Convert = System.Convert;

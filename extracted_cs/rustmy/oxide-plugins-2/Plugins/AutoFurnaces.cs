@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("AutoFurnaces", "Wulf/lukespragg", "1.1.3", ResourceId = 1140)]

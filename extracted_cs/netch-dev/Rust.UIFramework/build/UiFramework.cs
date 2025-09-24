@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Color = UnityEngine.Color;
 using Net = Network.Net;
 using Network;

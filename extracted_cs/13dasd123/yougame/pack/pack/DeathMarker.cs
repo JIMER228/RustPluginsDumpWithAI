@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Plugin formatted by redBDGR's Plugin Formatting Tool
 using System;
 using System.Collections.Generic;

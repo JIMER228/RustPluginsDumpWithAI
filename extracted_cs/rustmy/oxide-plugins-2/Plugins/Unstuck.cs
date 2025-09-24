@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
 TODO:
 - Finish implementing GUI adjusment commands and player preferences

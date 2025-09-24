@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//Lets use a command to change a value in the config
 //Lets also create a permission and check if the player has the permssions before letting
 //then change any config values while within the game

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 
 /*
  !!! JUST INSTALL PLUGIN IN PLUGINS FOLDER, IT WILL WORK NORMALLY !!!

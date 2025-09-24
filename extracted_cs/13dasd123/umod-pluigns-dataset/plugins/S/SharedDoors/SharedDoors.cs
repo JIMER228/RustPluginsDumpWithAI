@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Newtonsoft.Json.Linq;
 using Oxide.Core.Libraries;
 using Oxide.Core.Libraries.Covalence;

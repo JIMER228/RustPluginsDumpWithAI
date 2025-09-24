@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Oxide.Core;

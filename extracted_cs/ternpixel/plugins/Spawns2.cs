@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Oxide.Ext.Rust
 
 using System.Collections.Generic;
@@ -159,7 +160,7 @@ namespace Oxide.Plugins
             }
             ((List<Vector3>)SpawnsData[player]).Add(player.transform.position);
             player.SendConsoleCommand("ddraw.text", 20f, Color.red, player.transform.position, ((List<Vector3>)SpawnsData[player]).Count);
-            SendReply(player, string.Format("Added Spawn n�{0}", ((List<Vector3>)SpawnsData[player]).Count));
+            SendReply(player, string.Format("Added Spawn n{0}", ((List<Vector3>)SpawnsData[player]).Count));
         }
          [ChatCommand("spawns_show")]
         void cmdSpawnShow(BasePlayer player, string command, string[] args)
@@ -212,7 +213,7 @@ namespace Oxide.Plugins
                 return;
             }
             ((List<Vector3>)SpawnsData[player]).RemoveAt(result);
-            SendReply(player, string.Format("Successfully removed Spawn n�{0}", result.ToString()));
+            SendReply(player, string.Format("Successfully removed Spawn n{0}", result.ToString()));
         }
         [ChatCommand("spawns_save")]
         void cmdSpawnsSave(BasePlayer player, string command, string[] args)

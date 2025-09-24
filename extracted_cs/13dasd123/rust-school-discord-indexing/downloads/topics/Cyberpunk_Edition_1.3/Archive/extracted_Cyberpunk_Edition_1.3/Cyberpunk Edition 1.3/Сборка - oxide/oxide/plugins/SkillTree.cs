@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Facepunch;
 using Facepunch.Extend;
 using Newtonsoft.Json;

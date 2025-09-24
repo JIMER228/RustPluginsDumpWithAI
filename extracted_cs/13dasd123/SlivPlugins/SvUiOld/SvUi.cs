@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//Thank you for purchasing my plugin!
 //It is forbidden to distribute this plugin for free and for a fee.
 //It is allowed to modify the plugin.

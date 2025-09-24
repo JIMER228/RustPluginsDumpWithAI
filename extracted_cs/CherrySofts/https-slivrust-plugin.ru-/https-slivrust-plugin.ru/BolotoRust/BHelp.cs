@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // скачано с сайта @https://rust-plug.ru/
 using System.Security;
 using System;

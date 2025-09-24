@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //  Copyright 2020 gitub.com/spookywooky3
 
 //  Licensed under the Apache License, Version 2.0 (the "License");

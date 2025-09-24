@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*ToDo:  
  * BUG: if two nobuild zones overlap players will gain resources when placing a block.
 1. Look into getting resources from salvage in a nodamage zone, and prefabs seem to give more resources.

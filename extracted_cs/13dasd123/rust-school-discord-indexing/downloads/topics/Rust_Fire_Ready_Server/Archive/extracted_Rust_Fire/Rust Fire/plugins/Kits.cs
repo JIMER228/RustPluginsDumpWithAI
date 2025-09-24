@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// Name: Kits
 // Documentation: https://gist.github.com/JVCVkrSzVqsfEcwJqk7N/cec76ff33a5653acd3f13418b065190e
 // Changelog:

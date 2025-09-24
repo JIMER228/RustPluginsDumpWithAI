@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
 	[Info("No Heli Flyhack", "Dooby Skoo", "1.2.1")]

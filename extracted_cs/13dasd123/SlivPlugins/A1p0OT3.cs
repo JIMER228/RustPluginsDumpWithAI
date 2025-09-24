@@ -1,7 +1,8 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 *  < ----- End-User License Agreement ----->
 *  
-*  You may not copy, modify, merge, publish, distribute, sublicense, or sell copies of This Software without the Developer�s consent
+*  You may not copy, modify, merge, publish, distribute, sublicense, or sell copies of This Software without the Developers consent
 *
 *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
 *  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS 
@@ -11,7 +12,7 @@
 *
 *  Developer: Vergbergler (omicron.vega@gmail.com)
 *
-*  Copyright � 2023 Vergbergler
+*  Copyright  2023 Vergbergler
 */
 
 using System;

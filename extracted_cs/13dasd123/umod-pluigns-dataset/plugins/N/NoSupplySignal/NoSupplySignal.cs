@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("NoSupplySignal", "Wulf/lukespragg, Whispers88", 0.2, ResourceId = 2375)]

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;
 using System.Linq;
 using Facepunch.Models.Database;
@@ -729,4 +730,4 @@ namespace Oxide.Plugins
         }
 
         #endregion
-    }
+    }

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 Copyright 2017, João Pinto <lamego.pinto@gmail.com>
 

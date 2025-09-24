@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using ConVar;
 using Oxide.Core.Libraries.Covalence;
 using Oxide.Core.Plugins;

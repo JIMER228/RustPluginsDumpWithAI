@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // #define UNITY_ASSERTIONS // Uncomment this if you have any issues with the plugin, assertion log can help locate problematic code
 // #define SIMULATE_OXIDE_PATCH
 

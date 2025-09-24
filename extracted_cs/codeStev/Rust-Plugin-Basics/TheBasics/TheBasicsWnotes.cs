@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//Fistly anything written with two slashes (//) are notes and not read by rust/oxide
 //So we can note everything we are doing as we go along
 

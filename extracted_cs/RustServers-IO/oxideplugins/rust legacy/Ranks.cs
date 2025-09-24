@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*<summary> Plugin Ranks:
 Permissions Ranks:
 Admin rcon or permission ranks.admin.admin

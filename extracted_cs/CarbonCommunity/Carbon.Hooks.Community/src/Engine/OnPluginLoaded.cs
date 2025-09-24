@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using API.Hooks;
 using Carbon.Managers;
 using Oxide.Plugins;

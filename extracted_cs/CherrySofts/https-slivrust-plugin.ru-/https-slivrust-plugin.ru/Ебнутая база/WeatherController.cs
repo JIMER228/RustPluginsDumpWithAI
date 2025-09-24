@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /******************************************************************************
 * Version 1.3 Changelog
 *** Added /weather auto command to turn weather back to automatic.

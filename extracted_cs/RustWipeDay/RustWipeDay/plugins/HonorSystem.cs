@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // HonorSystem Plugin Implementation
 using Oxide.Core;
 using Oxide.Core.Plugins;

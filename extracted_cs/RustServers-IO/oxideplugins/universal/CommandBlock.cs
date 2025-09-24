@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
  * TODO: Add support for Covalence console command intercepting when possible
  * TODO: Add optional, standalone logging of blocked command attempts

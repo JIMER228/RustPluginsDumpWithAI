@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
 *  <----- End-User License Agreement ----->
 *  Copyright © 2024 Iftebinjan

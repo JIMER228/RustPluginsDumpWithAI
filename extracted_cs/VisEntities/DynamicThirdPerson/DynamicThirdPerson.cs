@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * Copyright (C) 2024 Game4Freak.io
  * Your use of this mod indicates acceptance of the Game4Freak EULA.

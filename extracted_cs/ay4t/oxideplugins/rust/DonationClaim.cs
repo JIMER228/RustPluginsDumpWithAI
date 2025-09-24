@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Text.RegularExpressions;
 using Oxide.Ext.MySql;
 using System.Text;

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("ServerPop", "Mabel", "1.0.0"), Description("Show server pop in chat with /pop command.")]

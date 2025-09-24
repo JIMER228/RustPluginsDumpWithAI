@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 // Cron Library - Cron Library for Oxide Mod ()
 // Copyright (c) 2008 MÃ¼nir Ozan TOPCU. All rights reserved.

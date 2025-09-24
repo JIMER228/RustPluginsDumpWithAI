@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//In This example we will make 2 commands
 //First will be an in game chat command
 //second will be a console command

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //USING INTERFACES//
 using System.Collections.Generic;
 using System.Data;

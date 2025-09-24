@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿
 /*Copyright © 2022 - 2023 AvG Лаймон(Email: alias.dev@ya.ru | Discord: AvG Лаймон#0680 | Alias™ development team: https://discord.gg/MWeNJV5e7F ) */
 

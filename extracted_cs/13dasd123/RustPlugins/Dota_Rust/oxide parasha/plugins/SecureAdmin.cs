@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
 ///Скачано с дискорд сервера Rust Edit [PRO+]
 ///discord.gg/9vyTXsJyKR

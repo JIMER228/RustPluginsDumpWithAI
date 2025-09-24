@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 TODO:
 - Add support for country, country code, and Steam ID in messages
@@ -24,7 +25,8 @@ namespace Oxide.Plugins
 
         #region Configuration
 
-        List<object> CountryList => GetConfig("CountryList", new List<object> { "CN", "RU" });        bool Whitelist => GetConfig("Whitelist", false);
+        List<object> CountryList => GetConfig("CountryList", new List<object> { "CN", "RU" });
+        bool Whitelist => GetConfig("Whitelist", false);
 
         protected override void LoadDefaultConfig()
         {
@@ -79,7 +81,9 @@ namespace Oxide.Plugins
             {
                 if (code != 200 || response == null || response == "undefined" || response == "xx")
                 {
-                    Puts($"Getting country for {ip} failed! ({code})");                    return;                }
+                    Puts($"Getting country for {ip} failed! ({code})");
+                    return;
+                }
 
                 string country;
                 try

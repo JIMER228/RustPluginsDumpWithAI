@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Time = UnityEngine.Time;
 using System.Collections;
 using Oxide.Core;

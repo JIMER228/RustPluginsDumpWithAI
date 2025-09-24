@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // UI Connect скачан с сайта Server-rust.ru Сотни новых бесплатных плагинов уже на нашем сайте! 
 // Присоеденяйся к нам! Server-rust.ru
 using System.Collections.Generic;

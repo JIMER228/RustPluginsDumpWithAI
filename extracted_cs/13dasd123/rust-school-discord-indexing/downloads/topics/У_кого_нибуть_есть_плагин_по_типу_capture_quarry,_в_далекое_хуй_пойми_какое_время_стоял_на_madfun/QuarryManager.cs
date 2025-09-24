@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/* 
  * TODO:
  * - Add clan support <- 2.0.4 (NEXT)

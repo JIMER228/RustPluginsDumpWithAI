@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System;
 using Object = System.Object;
 using Oxide.Core.Plugins;

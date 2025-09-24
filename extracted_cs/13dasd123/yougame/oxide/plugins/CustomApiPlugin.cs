@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Core.Plugins;
 using Oxide.Game.Rust.Cui;
 using UnityEngine;
@@ -97,7 +98,7 @@ namespace Oxide.Plugins
 
         private void OnServerInitialized()
         {
-            Puts("����");
+            Puts("");
             new ImageLibrary(plugins.Find("ImageLibrary"));
 
             foreach(var image in MenuImage)

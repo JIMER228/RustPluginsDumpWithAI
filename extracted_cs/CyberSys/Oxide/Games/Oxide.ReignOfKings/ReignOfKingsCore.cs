@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using CodeHatch.Engine.Core.Commands;
 using CodeHatch.Engine.Networking;
 using Oxide.Core;

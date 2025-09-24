@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
 TODO:
 - Add command to check player's country, kick/ban optional - seems useless

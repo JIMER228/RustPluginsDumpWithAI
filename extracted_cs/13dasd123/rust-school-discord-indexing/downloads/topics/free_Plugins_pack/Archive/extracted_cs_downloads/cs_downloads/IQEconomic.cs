@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using ConVar;
 using Pool = Facepunch.Pool;
 using Object = System.Object;

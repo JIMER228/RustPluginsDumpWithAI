@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using UnityEngine;
 using ProtoBuf;
 using System.Collections.Generic;

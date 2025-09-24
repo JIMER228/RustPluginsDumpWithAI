@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * https://github.com/DocValerian/rust-plugins
  * Copyright (C) 2022 DocValerian

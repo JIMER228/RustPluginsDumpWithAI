@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Data.Common;
 #if NET35
 using System.Security.Permissions;

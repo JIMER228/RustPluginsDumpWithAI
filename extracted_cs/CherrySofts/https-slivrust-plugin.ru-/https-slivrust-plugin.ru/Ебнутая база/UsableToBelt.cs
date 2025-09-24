@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("UsableToBelt", "Wulf/lukespragg", "1.2.1", ResourceId = 1141)]

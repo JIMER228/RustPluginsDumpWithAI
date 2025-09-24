@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Oxide.Ext.MySql
 using System.Collections.Generic;
 using Oxide.Core;

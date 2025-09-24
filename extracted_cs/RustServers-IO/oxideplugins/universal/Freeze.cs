@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * TODO: Add GUI for Rust to show player frozen status
  * TODO: Handle offline players in freezeall/unfreezeall

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //Requested by CCTV and RHAKOON on the Oxide Rust requests forum
 using System.Collections.Generic;
 using Oxide.Core;

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿// -------------- PLUGIN CODE MACROSES --------------
 
 // If you want to select and older version for the plugin, remove '//' near your version:

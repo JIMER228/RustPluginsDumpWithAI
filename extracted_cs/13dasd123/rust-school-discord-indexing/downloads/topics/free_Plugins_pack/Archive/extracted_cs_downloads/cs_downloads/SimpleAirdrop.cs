@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // https://static.imperialplugins.com/Legal/LICENSE.txt
 
 // For personal use only, not to be copied, distributed, altered or sold.

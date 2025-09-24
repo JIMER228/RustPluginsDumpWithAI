@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /**
  * OxidationMetadata - Server metadata configuration
  * Copyright (C) 2022-2023 kasvoton [kasvoton@stinkfist.org]

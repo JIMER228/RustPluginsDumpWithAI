@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
  * Originally created by Blunt.
  * Config support, optimization, and other modifications by Salsa

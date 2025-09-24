@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("No Loot", "Wulf/lukespragg", "1.0.0", ResourceId = 1488)]

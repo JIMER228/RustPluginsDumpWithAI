@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/// <summary>
 /// Author: S0N_0F_BISCUIT
 /// </summary>

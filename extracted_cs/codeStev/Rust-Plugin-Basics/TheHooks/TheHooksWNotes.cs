@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//In this example we will take a look at one of the various hooks
 //that oxide/uMod have avalible to us
 //You can see a list of the hooks at https://umod.org/documentation/games/rust

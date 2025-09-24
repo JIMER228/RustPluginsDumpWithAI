@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//#define DEBUG //Uncomment this line to get debug information
 using System.Collections.Generic;
 using System.Linq;

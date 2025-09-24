@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using static Oxide.Plugins.CRaidController.ConfigData;
 using Newtonsoft.Json.Linq;
 using Oxide.Core;

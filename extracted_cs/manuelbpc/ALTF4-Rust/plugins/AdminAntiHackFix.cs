@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("Admin AntiHack Fix", "Solarix", "1.0.0"), Description("Fix for admin staff getting kicked for AntiHack violation(s).")]

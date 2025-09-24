@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * Exotic Plugins © 2023
  * File can not be copied, modified and/or distributed without the express permission from Tryhard

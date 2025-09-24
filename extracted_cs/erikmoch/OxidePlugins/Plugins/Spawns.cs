@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;
 using System;
 using System.Data;
@@ -156,7 +157,7 @@ namespace Oxide.Plugins
                 return;
             }
             ((List<Vector3>)SpawnsData[player]).Add(player.playerClient.lastKnownPosition);
-            SendReply(player, string.Format("Added Spawn n�{0}", ((List<Vector3>)SpawnsData[player]).Count));
+            SendReply(player, string.Format("Added Spawn n{0}", ((List<Vector3>)SpawnsData[player]).Count));
         }
         [ChatCommand("spawns_remove")]
         void cmdSpawnsRemove(NetUser player, string command, string[] args)
@@ -190,7 +191,7 @@ namespace Oxide.Plugins
                 return;
             }
             ((List<Vector3>)SpawnsData[player]).RemoveAt(result);
-            SendReply(player, string.Format("Successfully removed Spawn n�{0}", result.ToString()));
+            SendReply(player, string.Format("Successfully removed Spawn n{0}", result.ToString()));
         }
         [ChatCommand("spawns_save")]
         void cmdSpawnsSave(NetUser player, string command, string[] args)

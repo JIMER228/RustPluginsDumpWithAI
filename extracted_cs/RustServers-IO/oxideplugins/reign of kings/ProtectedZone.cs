@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*ToDo:  
 1. Look into getting resources from salvage in a nodamage zone, and prefabs seem to give more resources.
  Known Bugs: 

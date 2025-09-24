@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -74,7 +75,8 @@ namespace Oxide.Plugins
 
         void LoadDefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["Disabled"] = "You have disabled godmode",
                 ["DisabledBy"] = "Your godmode has been disabled by {0}",
                 ["DisabledFor"] = "You have disabled godmode for {0}",

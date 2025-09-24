@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Linq;
 using CodeHatch.Engine.Networking;
 using CodeHatch.Common;

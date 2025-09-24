@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License
 /*
  Copyright (c) 2016 dcode [battlelink.io] and contributors

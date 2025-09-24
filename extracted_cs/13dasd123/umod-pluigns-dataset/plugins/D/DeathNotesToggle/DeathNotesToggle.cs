@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Requires: DeathNotes
 
 using System.Collections.Generic;

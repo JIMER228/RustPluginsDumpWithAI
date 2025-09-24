@@ -1,3 +1,4 @@
+// Р’СЃРµ РїСЂР°РІР° РїСЂРёРЅР°РґР»РµР¶Р°С‚ РґРёСЃРєРѕСЂРґ СЃРѕРѕР±С‰РµСЃС‚РІСѓ https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;
 using System;
 using System.Reflection;
@@ -29,7 +30,7 @@ namespace Oxide.Plugins
 				if (component.gameObject.name == "Barricade_Fence_Deployable(Clone)"||component.gameObject.name == "Furnace(Clone)")
 					if (distFix<=1)
 				{
-				SendReply(item.character.playerClient.netUser, "[color#FF4500]Нельзя находится в текстурах печек и баррикад![color#CDB38B]");
+				SendReply(item.character.playerClient.netUser, "[color#FF4500]      ![color#CDB38B]");
 				item.character.GetComponent<Inventory>().AddItemAmount(item.datablock, 1);
 				timer.Once(0.01f, () => NetCull.Destroy(component.gameObject));
 				}
@@ -40,7 +41,7 @@ namespace Oxide.Plugins
 				{
 					if (collider.gameObject.name.Contains("Door"))					
 					{
-						SendReply(item.character.playerClient.netUser, "[color#FF4500]Застраивать входы запрещено![color#CDB38B]");
+						SendReply(item.character.playerClient.netUser, "[color#FF4500]  ![color#CDB38B]");
 						item.character.GetComponent<Inventory>().AddItemAmount(item.datablock, 1);
 						timer.Once(0.01f, () => NetCull.Destroy(component.gameObject));
 					}

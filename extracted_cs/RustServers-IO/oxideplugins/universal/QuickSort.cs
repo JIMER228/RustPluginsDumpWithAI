@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 TODO:
 - Add component sorting to GUI
@@ -79,10 +80,10 @@ namespace Oxide.Plugins
             // French
             lang.RegisterMessages(new Dictionary<string, string>
             {
-                ["Deposit"] = "Facilit�s",
+                ["Deposit"] = "Facilits",
                 ["DepositAll"] = "Tout",
                 ["DepositAmmo"] = "Munitions",
-                ["DepositAttire"] = "V�tements",
+                ["DepositAttire"] = "Vtements",
                 ["DepositConstruction"] = "Construction",
                 ["DepositExisting"] = "Existants",
                 ["DepositFood"] = "Nourritures",
@@ -90,7 +91,7 @@ namespace Oxide.Plugins
                 ["DepositMedical"] = "Medical",
                 ["DepositResources"] = "Resources",
                 ["DepositTools"] = "Outils",
-                ["DepositTraps"] = "Pi�ges",
+                ["DepositTraps"] = "Piges",
                 ["DepositWeapons"] = "Armes",
                 ["LootAll"] = "Prendre Tout"
             }, this, "fr");

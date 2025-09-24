@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿namespace Oxide.Plugins {
 	[Info("CupBoardLimit", "Lime", "0.1.1", ResourceId = 223991)]
 	[Description("Ограничения для хранения ресурсов в шкафу")]

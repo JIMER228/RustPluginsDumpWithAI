@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System;
 using System.Globalization;
 using System.Collections.Generic;
@@ -546,7 +547,8 @@ namespace Oxide.Plugins
         #region Messages
         void DefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["Enabled"] = "AutoChat was enabled.",
                 ["Disabled"] = "AutoChat was disabled.",
                 ["Activated"] = "You have active the autochat.",

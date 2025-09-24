@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * TODO:
  * Add optional GUI icons to indicate what is enabled/disabled

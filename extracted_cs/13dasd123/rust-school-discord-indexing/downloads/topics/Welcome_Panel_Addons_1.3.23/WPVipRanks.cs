@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //version 1.2.3
 using Newtonsoft.Json;
 using Oxide.Game.Rust.Cui;

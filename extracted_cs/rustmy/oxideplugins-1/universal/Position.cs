@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Core.Libraries.Covalence;
 using System.Collections.Generic;
 
@@ -32,7 +33,7 @@ namespace Oxide.Plugins
 
             lang.RegisterMessages(new Dictionary<string, string>
             {
-                ["Position"] = "Posici�n: ({0}, {1}, {2})."
+                ["Position"] = "Posicin: ({0}, {1}, {2})."
             }, this, "es");
         }
 

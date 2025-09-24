@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Game.Rust.Cui;
 using System.Text.RegularExpressions;
 using Oxide.Core.Plugins;

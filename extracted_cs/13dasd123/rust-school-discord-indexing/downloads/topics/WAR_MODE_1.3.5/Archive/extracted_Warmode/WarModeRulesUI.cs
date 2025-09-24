@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Requires: WarMode
 using static Oxide.Plugins.WarMode;
 

@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     NoDecay - Scales or disables decay of items for Rust by Facepunch

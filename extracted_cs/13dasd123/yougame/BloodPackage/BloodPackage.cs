@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using Oxide.Core.Plugins; using UnityEngine; using Oxide.Game.Rust.Cui; using System.Collections.Generic; using System; using Random = UnityEngine.Random; using Newtonsoft.Json;
 
 namespace Oxide.Plugins

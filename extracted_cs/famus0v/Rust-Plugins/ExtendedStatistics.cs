@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // ReSharper disable once CheckNamespace
 namespace Oxide.Plugins
 {

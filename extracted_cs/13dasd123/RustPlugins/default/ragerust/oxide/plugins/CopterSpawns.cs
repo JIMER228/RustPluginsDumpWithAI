@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿яяяяяusing Facepunch;
 using Newtonsoft.Json;
 using Rust;

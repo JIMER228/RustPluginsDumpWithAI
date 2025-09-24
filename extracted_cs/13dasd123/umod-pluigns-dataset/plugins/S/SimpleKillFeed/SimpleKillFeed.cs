@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -533,11 +534,11 @@ namespace Oxide.Plugins
 
             lang.RegisterMessages(new Dictionary<string , string>
             {
-            {"MsgAttacker", "Du hast <color=#ff686b>{0}</color> aus {1}m in <color=#ff686b>{2}</color> get�tet."},
-            {"MsgVictim", "<color=#ff686b>{0}</color> hat dich aus {1}m mit ihrer {2} zu <color=#ff686b>{3}</color> get�tet."},
-            {"MsgFeedKill", "<color=#00ff00>{0}</color> hat <color=#ff686b>{1}</color> get�tet, <color=#ff686b>{2}</color>, <color=#ff686b>{3}</color><color={4}>({5}m)</color>"},
-            {"MsgFeedKillNpc", "<color=#00ff00>{0}</color> hat <color=#ff686b>{1}</color> get�tet, <color={2}>({3}m)</color>"},
-            {"MsgFeedKillAnimalFromPlayer", "<color=#00ff00>{0}</color> hat ein <color=#ff686b>{1}</color> get�tet, <color=#ff686b>{2}</color>, <color={3}>({4}m)</color>"},
+            {"MsgAttacker", "Du hast <color=#ff686b>{0}</color> aus {1}m in <color=#ff686b>{2}</color> gettet."},
+            {"MsgVictim", "<color=#ff686b>{0}</color> hat dich aus {1}m mit ihrer {2} zu <color=#ff686b>{3}</color> gettet."},
+            {"MsgFeedKill", "<color=#00ff00>{0}</color> hat <color=#ff686b>{1}</color> gettet, <color=#ff686b>{2}</color>, <color=#ff686b>{3}</color><color={4}>({5}m)</color>"},
+            {"MsgFeedKillNpc", "<color=#00ff00>{0}</color> hat <color=#ff686b>{1}</color> gettet, <color={2}>({3}m)</color>"},
+            {"MsgFeedKillAnimalFromPlayer", "<color=#00ff00>{0}</color> hat ein <color=#ff686b>{1}</color> gettet, <color=#ff686b>{2}</color>, <color={3}>({4}m)</color>"},
 
             {"MsgAtkWounded", "Du hast <color=#ff686b>{0}</color> bis zum Tod verwundet."},
             {"MsgVictimWounded", "<color=#ff686b>{0}</color> hat dich bis zum Tod verwundet."},
@@ -547,18 +548,18 @@ namespace Oxide.Plugins
             {"MsgVictimBurned", "<color=#ff686b>{0}</color> hat dich lebendig verbrannt!"},
             {"MsgFeedBurned", "<color=#00ff00>{0}</color> hat <color=#ff686b>{1}</color> verbrannt!"},
 
-            {"MsgFeedKillBrad", "<color=#ff686b>{0}</color> wurde von einer <color=orange>Schale</color> get�tet."},
-            {"MsgFeedKillEnt", "<color=#ff686b>{0}</color> wurde von <color=orange>{1}</color> get�tet."},
-            {"MsgFeedKillAnimal", "<color=#ff686b>{0}</color> wurde von <color=orange>{1}</color> get�tet."},
+            {"MsgFeedKillBrad", "<color=#ff686b>{0}</color> wurde von einer <color=orange>Schale</color> gettet."},
+            {"MsgFeedKillEnt", "<color=#ff686b>{0}</color> wurde von <color=orange>{1}</color> gettet."},
+            {"MsgFeedKillAnimal", "<color=#ff686b>{0}</color> wurde von <color=orange>{1}</color> gettet."},
 
             {"MsgFeedKillSuicide", "<color=#ff686b>{0}</color> beging <color=orange>Suizid</color>."},
             {"MsgFeedKillRadiation", "<color=#ff686b>{0}</color> starb an <color=orange>Strahlung</color>."},
             {"MsgFeedKillFall", "<color=#ff686b>{0}</color> starb durch einen <color=orange>Fall</color>."},
-            {"MsgFeedKillCold", "<color=#ff686b>{0}</color> starb an <color=orange>K�lte</color>."},
+            {"MsgFeedKillCold", "<color=#ff686b>{0}</color> starb an <color=orange>Klte</color>."},
             {"MsgFeedKillDrowned", "<color=#ff686b>{0}</color> <color=orange>Ertrunken</color>."},
             {"MsgFeedKillHunger", "<color=#ff686b>{0}</color> <color=orange>Hungergestorben</color>."},
             {"MsgFeedKillShock", "<color=#ff686b>{0}</color> wurde <color=orange>elektrisiert</color>."},
-            {"MsgFeedKillSentry", "<color=#ff686b>{0}</color> wurde von einem <color=orange>Au�enposten</color> get�tet."},
+            {"MsgFeedKillSentry", "<color=#ff686b>{0}</color> wurde von einem <color=orange>Auenposten</color> gettet."},
             {"MsgFeedKillCactus", "<color=#ff686b>{0}</color> starb an einem <color=orange>Kaktus</color>."},
 
             {"Enabled", "KillFeed Aktiviert"},

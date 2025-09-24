@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     Stacks.cs - Set stack sizes by item name, held, item, or category

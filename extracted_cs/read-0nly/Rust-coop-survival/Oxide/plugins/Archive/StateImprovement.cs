@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Requires: Cordyceps
 using Convert = System.Convert;
 using Network;

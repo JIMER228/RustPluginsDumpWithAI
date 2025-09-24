@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 #region License (GPL v2)
 /*
     Copyright (c) 2022 RFC1920 <desolationoutpostpve@gmail.com>

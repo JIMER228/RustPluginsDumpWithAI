@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using System.Drawing.Imaging;
 using System.Management.Instrumentation;
 using System.Net;

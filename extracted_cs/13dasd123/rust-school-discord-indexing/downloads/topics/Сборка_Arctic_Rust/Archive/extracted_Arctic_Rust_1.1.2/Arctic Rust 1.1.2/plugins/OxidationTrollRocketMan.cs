@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /**
  * OxidationTrollRocketMan - Troll's kit - The rocketman
  * Copyright (C) 2021 kasvoton [kasvoton@projectoxidation.com]

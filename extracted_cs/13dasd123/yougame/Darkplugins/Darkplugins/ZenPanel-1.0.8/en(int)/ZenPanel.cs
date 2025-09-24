@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // ZenPanel by rever. Purchased at https://darkplugins.ru. Thank you for your purchase!
 //  In case of any problems, create a ticket in the "Technical Support" section or write directly to the author.
 //

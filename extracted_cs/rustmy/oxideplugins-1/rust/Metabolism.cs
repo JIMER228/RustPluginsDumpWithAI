@@ -1,5 +1,8 @@
-﻿using System;using UnityEngine;
-namespace Oxide.Plugins
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
+﻿using System;
+using UnityEngine;
+
+namespace Oxide.Plugins
 {
     [Info("Metabolism", "Wulf/lukespragg", "2.3.1", ResourceId = 680)]
     [Description("Modifies player metabolism stats and rates")]
@@ -29,8 +32,13 @@
             SaveConfig();
         }
 
-        void Init()        {            LoadDefaultConfig();
-            permission.RegisterPermission(permAllow, this);        }        #endregion
+        void Init()
+        {
+            LoadDefaultConfig();
+            permission.RegisterPermission(permAllow, this);
+        }
+
+        #endregion
 
         #region Modify Metabolism
 
@@ -41,7 +49,9 @@
             player.metabolism.hydration.value = hydrationSpawnValue;
         }
 
-        void OnPlayerRespawned(BasePlayer player) => Metabolize(player);        void OnRunPlayerMetabolism(PlayerMetabolism m, BaseCombatEntity entity)
+        void OnPlayerRespawned(BasePlayer player) => Metabolize(player);
+
+        void OnRunPlayerMetabolism(PlayerMetabolism m, BaseCombatEntity entity)
         {
             var player = entity.ToPlayer();
             if (player == null) return;

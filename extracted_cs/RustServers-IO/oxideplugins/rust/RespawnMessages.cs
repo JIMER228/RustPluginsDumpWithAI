@@ -1,4 +1,7 @@
-using System;using System.Collections.Generic;using Oxide.Core.Plugins;
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
+using System;
+using System.Collections.Generic;
+using Oxide.Core.Plugins;
 
 namespace Oxide.Plugins
 {
@@ -20,10 +23,16 @@ namespace Oxide.Plugins
 
             SaveConfig();
         }
-        void Init()        {            LoadDefaultConfig();
+
+        void Init()
+        {
+            LoadDefaultConfig();
 
             // English
-            lang.RegisterMessages(new Dictionary<string, string> { ["Respawn"] = "Hey, try not to die this time!" }, this);        }        void OnPlayerRespawned(BasePlayer player)
+            lang.RegisterMessages(new Dictionary<string, string> { ["Respawn"] = "Hey, try not to die this time!" }, this);
+        }
+
+        void OnPlayerRespawned(BasePlayer player)
         {
             if (chatMessage) SendReply(player, lang.GetMessage("Respawn", this, player.UserIDString));
             if (popupMessage) PopupNotifications?.Call("CreatePopupNotification", lang.GetMessage("Respawn", this, player.UserIDString), player);

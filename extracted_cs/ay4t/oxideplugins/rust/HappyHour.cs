@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Oxide.Ext.Rust
 // Reference: Oxide.Ext.Unity
 // Reference: Newtonsoft.Json

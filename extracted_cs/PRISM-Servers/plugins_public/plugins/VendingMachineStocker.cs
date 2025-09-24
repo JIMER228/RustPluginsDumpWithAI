@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("Vending Machine Stocker", "Shady", "0.0.3", ResourceId = 0)]

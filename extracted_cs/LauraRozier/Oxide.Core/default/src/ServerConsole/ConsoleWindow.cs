@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Microsoft.Win32.SafeHandles;
 using System;
 using System.IO;

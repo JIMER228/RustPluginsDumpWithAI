@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 Welcome wanderer! 
 If you are reading this, that means that you tried to open one of my protected plugins. 

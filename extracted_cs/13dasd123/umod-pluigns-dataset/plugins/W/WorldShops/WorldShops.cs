@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//todo: lessen lambda use a bit to optimize performance
 using System.Collections.Generic;
 using System.Linq;

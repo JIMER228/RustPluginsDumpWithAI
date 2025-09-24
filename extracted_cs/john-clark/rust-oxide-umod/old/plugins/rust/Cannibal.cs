@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 using System.Collections.Generic;   //list
 using Oxide.Core;   // storeddata
 using Convert = System.Convert;

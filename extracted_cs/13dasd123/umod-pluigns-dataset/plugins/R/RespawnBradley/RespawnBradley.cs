@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 RespawnBradley Copyright (c) 2021-2022 by PinguinNordpol
 

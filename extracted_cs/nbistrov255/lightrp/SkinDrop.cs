@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // SkinDrop.cs — SKINDROP с обратным отсчётом до следующего розыгрыша
 using System;
 using System.Collections.Generic;

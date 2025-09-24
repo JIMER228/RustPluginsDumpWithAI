@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using VLB;
 using System.Linq;
 using System.Collections.Generic;

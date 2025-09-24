@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿using Logger = Carbon.Logger;
 using Player = Oxide.Game.Rust.Libraries.Player;
 

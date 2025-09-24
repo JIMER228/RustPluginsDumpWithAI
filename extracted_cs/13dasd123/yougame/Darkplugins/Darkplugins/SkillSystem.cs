@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Автор плагина FuzeEffect 
 // Версия плагина 1.0.{DarkPluginsID}
 // Группа по разработке приватных плагинов - vk.com/skyeyeplugins

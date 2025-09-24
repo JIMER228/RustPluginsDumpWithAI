@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins {
 	[Info("ColonialEraBuilding", "Yi", 1.0)]
 	[Description("Colonial Era for Rust Factions")]

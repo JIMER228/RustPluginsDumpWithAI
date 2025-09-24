@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 //If debug is defined it will add a stopwatch to the paste and copydata which can be used to profile copying and pasting.
 // #define DEBUG
 

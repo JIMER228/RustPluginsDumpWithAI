@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // WelcomePanel v4.3.6
 using System.Text.RegularExpressions;
 using System.Collections.Generic;

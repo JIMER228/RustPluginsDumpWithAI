@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//Requires: Casino
 using Newtonsoft.Json;
 using Oxide.Game.Rust.Cui;

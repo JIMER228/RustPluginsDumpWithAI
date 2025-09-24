@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 // Reference: Assembly-CSharp-firstpass
 
 using System.Collections.Generic;

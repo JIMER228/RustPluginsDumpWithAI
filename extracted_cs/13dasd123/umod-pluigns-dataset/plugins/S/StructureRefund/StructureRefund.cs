@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿/*
  * TODO:
  * Add check to make sure structure is destroyed before refunding
@@ -84,5 +85,6 @@ namespace Oxide.Plugins
 
         T GetConfig<T>(string name, T value) => Config[name] == null ? value : (T)Convert.ChangeType(Config[name], typeof(T));
 
-        #endregion    }
+        #endregion
+    }
 }

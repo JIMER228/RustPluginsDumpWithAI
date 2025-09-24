@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /*
 TODO:
 - Add separate command and option for gates/garages?
@@ -61,7 +62,8 @@ namespace Oxide.Plugins
 
         void LoadDefaultMessages()
         {
-            lang.RegisterMessages(new Dictionary<string, string>            {
+            lang.RegisterMessages(new Dictionary<string, string>
+            {
                 ["DelayDisabled"] = "Автоматическое закрытие дверей теперь отключено",
                 ["DelaySet"] = "Задержка закрытия двери установлена ​​на {0}с.",
                 ["NotAllowed"] = "Вам не разрешено использовать команду '{0}'",

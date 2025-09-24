@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 ﻿//In this example we will be saving data from players who have knocked on the door
 //This information will be stored in a json file in the oxide/data folder
 //For this example we need to include System.Collections.Generic and Oxide.Core

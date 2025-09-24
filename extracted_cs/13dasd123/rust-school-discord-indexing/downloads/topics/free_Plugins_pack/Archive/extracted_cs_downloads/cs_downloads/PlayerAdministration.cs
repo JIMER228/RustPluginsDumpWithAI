@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 /* --- Contributor information ---
  * Please follow the following set of guidelines when working on this plugin,
  * this to help others understand this file more easily.

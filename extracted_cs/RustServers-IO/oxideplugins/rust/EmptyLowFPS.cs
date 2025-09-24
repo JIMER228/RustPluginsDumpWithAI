@@ -1,3 +1,4 @@
+// Все права принадлежат дискорд сообществу https://discord.gg/VgNHPpNrz6
 namespace Oxide.Plugins
 {
     [Info("EmptyLowFPS", "Dezito", "0.0.4", ResourceId = 1889)]
