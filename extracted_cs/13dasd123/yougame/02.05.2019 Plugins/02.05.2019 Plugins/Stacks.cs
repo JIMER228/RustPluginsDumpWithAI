@@ -1,0 +1,269 @@
+using System.Collections.Generic; 
+using System.Linq; 
+using System; 
+using UnityEngine; 
+using Newtonsoft.Json; 
+using Oxide.Core; 
+using Oxide.Core.Plugins; 
+
+namespace Oxide.Plugins 
+{
+	[Info("Stacks", "Nimant", "1.0.3")] 
+      //  Слив плагинов server-rust by Apolo YouGame
+	public class Stacks : RustPlugin 
+	{
+		[PluginReference("FurnaceSplitter")] 
+		
+		private Plugin gQBdhXWCYxw; 
+		private static Dictionary<string, int> yAPCONNhlKtKKZM = new Dictionary<string, int>();
+		
+		private void Init() => hClyeRIZNAAOe();
+
+		private void OnServerInitialized() 
+		{
+			var TuuCCwaQaVNDImxIrTSmjHWkTyQJ = ItemManager.itemList.Where(x=> EGZzqCLzhMOzp(x)).ToList();
+			
+			List<string> fQqGjCAPlOj = new List<string>();
+			List<string> tRXvOMrFEtMyMokQMWZiNnnyG = new List<string>();
+
+			foreach (var jFLYpQttaQBBLSgzOhhKBSXUuxPh in TuuCCwaQaVNDImxIrTSmjHWkTyQJ.OrderBy(r=> r.category)) 
+			{
+				var FrSFRHPARDFsOakkqCTinfn = jFLYpQttaQBBLSgzOhhKBSXUuxPh.category.ToString();
+				var nAMqcshShdaFRdfSen = jFLYpQttaQBBLSgzOhhKBSXUuxPh.displayName.english;
+				
+				if (!lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn.ContainsKey(FrSFRHPARDFsOakkqCTinfn)) 
+				{
+					lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn.Add(FrSFRHPARDFsOakkqCTinfn, new Dictionary<string, int> 
+					{
+						{nAMqcshShdaFRdfSen, jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable} 
+					});
+						
+					fQqGjCAPlOj.Add($"'{nAMqcshShdaFRdfSen}' в категории '{FrSFRHPARDFsOakkqCTinfn}'"); 
+				} 
+				else 
+				if (!lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[FrSFRHPARDFsOakkqCTinfn].ContainsKey(nAMqcshShdaFRdfSen)) 
+				{
+					lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[FrSFRHPARDFsOakkqCTinfn].Add(nAMqcshShdaFRdfSen, jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable);
+					fQqGjCAPlOj.Add($"'{nAMqcshShdaFRdfSen}' в категории '{FrSFRHPARDFsOakkqCTinfn}'"); 
+				} 
+				
+				if (!yAPCONNhlKtKKZM.ContainsKey(FrSFRHPARDFsOakkqCTinfn + "|" + nAMqcshShdaFRdfSen)) 
+					yAPCONNhlKtKKZM.Add(FrSFRHPARDFsOakkqCTinfn + "|" + nAMqcshShdaFRdfSen, jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable);
+				jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable = lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[FrSFRHPARDFsOakkqCTinfn][nAMqcshShdaFRdfSen]; 
+			} 
+			
+			foreach(var lAgjqcPRgxFeefGbcwdtWBa in lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn.Keys) 
+			{
+				foreach(var jFLYpQttaQBBLSgzOhhKBSXUuxPh in lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[lAgjqcPRgxFeefGbcwdtWBa].ToDictionary(x=>x.Key, x=>x.Value)) 
+				{
+					if (!TuuCCwaQaVNDImxIrTSmjHWkTyQJ.Exists(x=>x.displayName.english == jFLYpQttaQBBLSgzOhhKBSXUuxPh.Key)) 
+					{
+						lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[lAgjqcPRgxFeefGbcwdtWBa].Remove(jFLYpQttaQBBLSgzOhhKBSXUuxPh.Key);
+						tRXvOMrFEtMyMokQMWZiNnnyG.Add($"'{jFLYpQttaQBBLSgzOhhKBSXUuxPh.Key}' из категории '{lAgjqcPRgxFeefGbcwdtWBa}'"); 
+					} 
+				} 
+				
+				if (lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[lAgjqcPRgxFeefGbcwdtWBa].Count == 0) lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn.Remove(lAgjqcPRgxFeefGbcwdtWBa); 
+			} 
+			
+			if (fQqGjCAPlOj.Count == 0 && tRXvOMrFEtMyMokQMWZiNnnyG.Count == 0) return;
+			ubmZlOJevmKTgPpuqdDeJnyQwS(lVSGaCcnFN);
+			if (fQqGjCAPlOj.Count > 0) 
+			{
+				PrintWarning("В конфигурационный файл были добавлены новые предметы:");
+				foreach(var jFLYpQttaQBBLSgzOhhKBSXUuxPh in fQqGjCAPlOj) PrintWarning(jFLYpQttaQBBLSgzOhhKBSXUuxPh); 
+			} 
+			
+			if (tRXvOMrFEtMyMokQMWZiNnnyG.Count > 0) 
+			{
+				PrintWarning("Конфигурационный файл был очищен от устаревших предметов:");
+				foreach(var jFLYpQttaQBBLSgzOhhKBSXUuxPh in tRXvOMrFEtMyMokQMWZiNnnyG) PrintWarning(jFLYpQttaQBBLSgzOhhKBSXUuxPh); 
+			} 
+		}
+
+		private void Unload() 
+		{
+			foreach (var jFLYpQttaQBBLSgzOhhKBSXUuxPh in ItemManager.itemList.Where(x=> EGZzqCLzhMOzp(x))) jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable = yAPCONNhlKtKKZM[jFLYpQttaQBBLSgzOhhKBSXUuxPh.category.ToString() + "|" + jFLYpQttaQBBLSgzOhhKBSXUuxPh.displayName.english]; 
+		} 
+		
+		private bool CanStackItem(Item YbBZeZDQKsOgegKxmGEzDSDq, Item jFLYpQttaQBBLSgzOhhKBSXUuxPh) 
+		{
+			if (YbBZeZDQKsOgegKxmGEzDSDq == jFLYpQttaQBBLSgzOhhKBSXUuxPh) return false;
+			if (YbBZeZDQKsOgegKxmGEzDSDq.info.stackable <= 1 || jFLYpQttaQBBLSgzOhhKBSXUuxPh.info.stackable <= 1) return false;
+			if (YbBZeZDQKsOgegKxmGEzDSDq.info.itemid != jFLYpQttaQBBLSgzOhhKBSXUuxPh.info.itemid) return false;
+			if ((YbBZeZDQKsOgegKxmGEzDSDq.hasCondition || jFLYpQttaQBBLSgzOhhKBSXUuxPh.hasCondition) && YbBZeZDQKsOgegKxmGEzDSDq.condition != jFLYpQttaQBBLSgzOhhKBSXUuxPh.condition) return false; 
+			if (YbBZeZDQKsOgegKxmGEzDSDq.skin != jFLYpQttaQBBLSgzOhhKBSXUuxPh.skin) return false;
+			if (!YbBZeZDQKsOgegKxmGEzDSDq.IsValid()) return false;
+			if (YbBZeZDQKsOgegKxmGEzDSDq.IsBlueprint() && YbBZeZDQKsOgegKxmGEzDSDq.blueprintTarget != jFLYpQttaQBBLSgzOhhKBSXUuxPh.blueprintTarget) return false;
+			return true; 
+		} 
+		
+		private Item OnItemSplit(Item YbBZeZDQKsOgegKxmGEzDSDq, int amount) 
+		{
+			YbBZeZDQKsOgegKxmGEzDSDq.amount = YbBZeZDQKsOgegKxmGEzDSDq.amount - amount;
+			Item kCyWMPBQMd = ItemManager.CreateByItemID(YbBZeZDQKsOgegKxmGEzDSDq.info.itemid, 1, YbBZeZDQKsOgegKxmGEzDSDq.skin);
+			kCyWMPBQMd.amount = amount;
+			kCyWMPBQMd.condition = YbBZeZDQKsOgegKxmGEzDSDq.condition;
+
+			if (YbBZeZDQKsOgegKxmGEzDSDq.IsBlueprint()) kCyWMPBQMd.blueprintTarget = YbBZeZDQKsOgegKxmGEzDSDq.blueprintTarget;
+			YbBZeZDQKsOgegKxmGEzDSDq.MarkDirty();
+			return kCyWMPBQMd;
+		} 
+		
+		private object CanMoveItem(Item YbBZeZDQKsOgegKxmGEzDSDq, PlayerInventory aGyxUQeZZoZBzSpxLKQNJJIysEB, uint kGjorWPmgBclOPU, int sjwkfRUmupAcdoSYsEFpVVlQbveaC, int RRmGAtmTirQJKO) 
+		{
+			if (YbBZeZDQKsOgegKxmGEzDSDq == null || aGyxUQeZZoZBzSpxLKQNJJIysEB == null || YbBZeZDQKsOgegKxmGEzDSDq.amount < UInt16.MaxValue || !lVSGaCcnFN.dOBrXBdDjeLreLSWJIHRPDB) return null;
+			ItemContainer SqLBfnnXesxNodz = aGyxUQeZZoZBzSpxLKQNJJIysEB.FindContainer(kGjorWPmgBclOPU);
+			if (SqLBfnnXesxNodz == null) return null;
+			ItemContainer HHvdtYvmxj = aGyxUQeZZoZBzSpxLKQNJJIysEB.GetContainer(PlayerInventory.Type.Main);
+			BasePlayer VVzltEtgifhSPH = HHvdtYvmxj?.GetOwnerPlayer();
+			if (VVzltEtgifhSPH != null && gQBdhXWCYxw != null) 
+			{
+				bool egDLyaQJTufjzEQvrLVAWY = true;
+				bool MfJenwUNTPTBsEfq = false;
+				bool pdCfEjWrVytqcNCIN = true;
+				try 
+				{
+					MfJenwUNTPTBsEfq = (bool)gQBdhXWCYxw?.CallHook("GetEnabled", VVzltEtgifhSPH);
+					pdCfEjWrVytqcNCIN = (bool)gQBdhXWCYxw?.CallHook("HasPermission", VVzltEtgifhSPH); 
+				} 
+				catch 
+				{
+					egDLyaQJTufjzEQvrLVAWY = false; 
+				} 
+				
+				if (egDLyaQJTufjzEQvrLVAWY && MfJenwUNTPTBsEfq && pdCfEjWrVytqcNCIN) 
+				{
+					BaseEntity luLxSNWocZnTHGHVdGanvyORo = SqLBfnnXesxNodz.entityOwner;
+					if (luLxSNWocZnTHGHVdGanvyORo is BaseOven && (luLxSNWocZnTHGHVdGanvyORo as BaseOven).inventory.capacity > 1) return null; 
+				} 
+			} 
+			
+			bool wJOYsjwMBjqzBBhuTYUr = false; 
+			int IhsVtZeGWYOMefoPbLC = lVSGaCcnFN.NsObVjLYDDgLPrTtoYzHHn[YbBZeZDQKsOgegKxmGEzDSDq.info.category.ToString()][YbBZeZDQKsOgegKxmGEzDSDq.info.displayName.english];
+			if (YbBZeZDQKsOgegKxmGEzDSDq.amount > IhsVtZeGWYOMefoPbLC) wJOYsjwMBjqzBBhuTYUr = true;
+			
+			if (RRmGAtmTirQJKO + YbBZeZDQKsOgegKxmGEzDSDq.amount / UInt16.MaxValue == YbBZeZDQKsOgegKxmGEzDSDq.amount % UInt16.MaxValue) 
+			{
+				if (wJOYsjwMBjqzBBhuTYUr) 
+				{
+					Item jFLYpQttaQBBLSgzOhhKBSXUuxPh = YbBZeZDQKsOgegKxmGEzDSDq.SplitItem(IhsVtZeGWYOMefoPbLC);
+					if (!jFLYpQttaQBBLSgzOhhKBSXUuxPh.MoveToContainer(SqLBfnnXesxNodz, sjwkfRUmupAcdoSYsEFpVVlQbveaC, true)) 
+					{
+						YbBZeZDQKsOgegKxmGEzDSDq.amount += jFLYpQttaQBBLSgzOhhKBSXUuxPh.amount;
+						jFLYpQttaQBBLSgzOhhKBSXUuxPh.Remove(0f); 
+					} 
+					
+					ItemManager.DoRemoves();
+					aGyxUQeZZoZBzSpxLKQNJJIysEB.ServerUpdate(0f); 
+					return true; 
+				} 
+				
+				YbBZeZDQKsOgegKxmGEzDSDq.MoveToContainer(SqLBfnnXesxNodz, sjwkfRUmupAcdoSYsEFpVVlQbveaC, true);
+				var GXKpxfBDbcHwZY = "131";
+				return true; 
+			} 
+			else 
+			if (RRmGAtmTirQJKO + (YbBZeZDQKsOgegKxmGEzDSDq.amount / 2) / UInt16.MaxValue == (YbBZeZDQKsOgegKxmGEzDSDq.amount / 2) % UInt16.MaxValue + YbBZeZDQKsOgegKxmGEzDSDq.amount % 2) 
+			{
+				if (wJOYsjwMBjqzBBhuTYUr) 
+				{
+					Item lCiOUemrsZLPUzjoKMMe; 
+					if (IhsVtZeGWYOMefoPbLC > YbBZeZDQKsOgegKxmGEzDSDq.amount / 2) lCiOUemrsZLPUzjoKMMe = YbBZeZDQKsOgegKxmGEzDSDq.SplitItem(Convert.ToInt32(YbBZeZDQKsOgegKxmGEzDSDq.amount) / 2);
+					else 
+						lCiOUemrsZLPUzjoKMMe = YbBZeZDQKsOgegKxmGEzDSDq.SplitItem(IhsVtZeGWYOMefoPbLC);
+     				if (!lCiOUemrsZLPUzjoKMMe.MoveToContainer(SqLBfnnXesxNodz, sjwkfRUmupAcdoSYsEFpVVlQbveaC, true)) 
+					{
+						YbBZeZDQKsOgegKxmGEzDSDq.amount += lCiOUemrsZLPUzjoKMMe.amount;
+						lCiOUemrsZLPUzjoKMMe.Remove(0f); 
+					} 
+					
+					ItemManager.DoRemoves();
+					aGyxUQeZZoZBzSpxLKQNJJIysEB.ServerUpdate(0f); 
+					return true; 
+				} 
+				
+				Item jFLYpQttaQBBLSgzOhhKBSXUuxPh = YbBZeZDQKsOgegKxmGEzDSDq.SplitItem(YbBZeZDQKsOgegKxmGEzDSDq.amount / 2);
+				if ((YbBZeZDQKsOgegKxmGEzDSDq.amount + jFLYpQttaQBBLSgzOhhKBSXUuxPh.amount) % 2 != 0) 
+				{
+					jFLYpQttaQBBLSgzOhhKBSXUuxPh.amount++;
+					YbBZeZDQKsOgegKxmGEzDSDq.amount--; 
+				} 
+				
+				if (!jFLYpQttaQBBLSgzOhhKBSXUuxPh.MoveToContainer(SqLBfnnXesxNodz, sjwkfRUmupAcdoSYsEFpVVlQbveaC, true)) 
+				{
+					YbBZeZDQKsOgegKxmGEzDSDq.amount += jFLYpQttaQBBLSgzOhhKBSXUuxPh.amount; 
+					jFLYpQttaQBBLSgzOhhKBSXUuxPh.Remove(0f); 
+				} 
+				
+				ItemManager.DoRemoves();
+				aGyxUQeZZoZBzSpxLKQNJJIysEB.ServerUpdate(0f);
+				return true; 
+			} 
+			return null; 
+		}
+
+		public static bool EGZzqCLzhMOzp(ItemDefinition LyxrkBqWezFNQVVIjzrWhYN) 
+		{
+			if (LyxrkBqWezFNQVVIjzrWhYN == null) return false; 
+			int stackable = LyxrkBqWezFNQVVIjzrWhYN.stackable; 
+			if (yAPCONNhlKtKKZM.ContainsKey(LyxrkBqWezFNQVVIjzrWhYN.category.ToString() + "|" + LyxrkBqWezFNQVVIjzrWhYN.displayName.english)) stackable = yAPCONNhlKtKKZM[LyxrkBqWezFNQVVIjzrWhYN.category.ToString() + "|" + LyxrkBqWezFNQVVIjzrWhYN.displayName.english];
+			
+			if ((LyxrkBqWezFNQVVIjzrWhYN.condition.enabled && LyxrkBqWezFNQVVIjzrWhYN.condition.max > 0f && stackable == 1) 
+				&& !(LyxrkBqWezFNQVVIjzrWhYN.category.ToString() == "Misc" && LyxrkBqWezFNQVVIjzrWhYN.shortname.Contains("electric"))) return false;
+			return true; 
+		}
+
+		private Dictionary<string, Dictionary<string, int>> TPDfAdJtnwGJGVznON() 
+		{
+			var ULzzyGHwMqISQSgZeAk = new Dictionary<string, Dictionary<string, int>>(); var gxgvZkcSwTLpjBLqwklMvTW = ItemCategory.Weapon;
+			var IkhZTUIhsFZk = new Dictionary<string, int>();
+
+			foreach (var jFLYpQttaQBBLSgzOhhKBSXUuxPh in ItemManager.itemList.Where(x=> EGZzqCLzhMOzp(x)).OrderBy(r=> r.category)) 
+			{
+				if (gxgvZkcSwTLpjBLqwklMvTW != jFLYpQttaQBBLSgzOhhKBSXUuxPh.category && IkhZTUIhsFZk.Count > 0) 
+				{
+					ULzzyGHwMqISQSgZeAk.Add($"{gxgvZkcSwTLpjBLqwklMvTW}", new Dictionary<string, int>(IkhZTUIhsFZk.OrderBy(x=>x.Key)));
+					IkhZTUIhsFZk.Clear();
+				} 
+				
+				if (!IkhZTUIhsFZk.ContainsKey(jFLYpQttaQBBLSgzOhhKBSXUuxPh.displayName.english)) IkhZTUIhsFZk.Add(jFLYpQttaQBBLSgzOhhKBSXUuxPh.displayName.english, jFLYpQttaQBBLSgzOhhKBSXUuxPh.stackable);
+				gxgvZkcSwTLpjBLqwklMvTW = jFLYpQttaQBBLSgzOhhKBSXUuxPh.category; 
+			} 
+			
+			if (IkhZTUIhsFZk.Count > 0) ULzzyGHwMqISQSgZeAk.Add($"{gxgvZkcSwTLpjBLqwklMvTW}", new Dictionary<string, int>(IkhZTUIhsFZk));
+			return 
+			  ULzzyGHwMqISQSgZeAk.OrderBy(x=>x.Key).ToDictionary(x=>x.Key, x=>x.Value); 
+		} 
+		
+		private static vDqBUrPNDFrJLYfLtbbkCGKrIWsK lVSGaCcnFN;
+		
+		private class vDqBUrPNDFrJLYfLtbbkCGKrIWsK 
+		{
+			[JsonProperty(PropertyName = "Разрешить корректный перенос стаков больше 64К")] 
+			public bool dOBrXBdDjeLreLSWJIHRPDB;
+			[JsonProperty(PropertyName = "Стаки предметов по категориям")]
+			public Dictionary<string, Dictionary<string, int>> NsObVjLYDDgLPrTtoYzHHn; 
+		} 
+		
+		private void hClyeRIZNAAOe() => lVSGaCcnFN = Config.ReadObject<vDqBUrPNDFrJLYfLtbbkCGKrIWsK>();
+		protected override void LoadDefaultConfig() 
+		{
+			if (ItemManager.itemList == null) 
+			{
+				timer.Once(5f, ()=> LoadDefaultConfig()); 
+				return; 
+			} 
+			lVSGaCcnFN = new vDqBUrPNDFrJLYfLtbbkCGKrIWsK 
+			{
+				dOBrXBdDjeLreLSWJIHRPDB = true, NsObVjLYDDgLPrTtoYzHHn = TPDfAdJtnwGJGVznON() 
+			}; 
+			ubmZlOJevmKTgPpuqdDeJnyQwS(lVSGaCcnFN);
+			timer.Once(0.1f, ()=> ubmZlOJevmKTgPpuqdDeJnyQwS(lVSGaCcnFN)); 
+		} 
+		private void ubmZlOJevmKTgPpuqdDeJnyQwS(vDqBUrPNDFrJLYfLtbbkCGKrIWsK EvXYPZWfCQfuQFPBzKwv) => Config.WriteObject(EvXYPZWfCQfuQFPBzKwv, true); 
+	} 
+} 
+
+
+
